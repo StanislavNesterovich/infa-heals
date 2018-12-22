@@ -1,0 +1,89 @@
+{
+  "projects": [{
+    "id": "bingoblitz",
+    "name": "Bingo Blitz",
+    "logoUrl": "images/bingoblitz.jpg",
+    "platforms": [
+      {
+        "id": "haxe",
+        "path": "bingo/haxe/report.json",
+        "name": "Haxe"
+      },
+      {
+        "id": "csharp",
+        "path": "bingo/csharp/report.json",
+        "name": "C#"
+      }
+    ]
+  },
+  {
+    "id": "slotomania",
+    "name": "Slotomania",
+    "logoUrl": "images/slotomania.jpg",
+    "platforms": [
+      {
+        "id": "haxe",
+        "path": "slotomania/haxe/report.json",
+        "name": "Haxe"
+      },
+      {
+        "id": "csharp",
+        "path": "slotomania/csharp/report.json",
+        "name": "C#"
+      }
+    ]
+  },
+  {
+    "id": "pokerheat",
+    "name": "Poker Heat",
+    "logoUrl": "images/pokerheat.jpg",
+    "platforms": [
+      {
+        "id": "haxe",
+        "path": "pokerfriends/haxe/report.json",
+        "name": "Haxe"
+      }
+    ]
+  },
+  {
+    "id": "caesarscasino",
+    "name": "Caesars Casino",
+    "logoUrl": "images/caesarscasino.jpg",
+    "platforms": [
+      {
+        "id": "haxe",
+        "path": "caesars/haxe/report.json",
+        "name": "Haxe"
+      },
+      {
+        "id": "csharp",
+        "path": "caesars/csharp/report.json",
+        "name": "C#"
+      }
+    ]
+  },
+  {
+    "id": "vds",
+    "name": "VDS",
+    "logoUrl": "images/vds.jpg",
+    "platforms": [
+      {
+        "id": "csharp",
+        "path": "vds/csharp/report.json",
+        "name": "C#"
+      }
+    ]
+  }],
+  "platforms": [
+    {
+      "id": "haxe",
+      "name": "Haxe",
+      "dependencyGraphAvailable": true
+    },
+    {
+      "id": "csharp",
+      "name": "C#",
+      "dependencyGraphAvailable": false
+    }
+  ]
+}

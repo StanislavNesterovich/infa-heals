@@ -1,0 +1,5 @@
+apps:
+  script   : 'bin/www'
+  name     : 'versions-tool-backend'
+  exec_mode: 'fork'
+  watch: false

@@ -1,0 +1,40 @@
+@import './variables.scss';
+
+.el-table {
+  .warning-row {
+    background-color: rgba($warningColor, 0.5);
+  }
+  .danger-row {
+    background-color: rgba($dangerColor, 0.2);
+  }
+  .success-row {
+    background-color: rgba($successColor, 0.2);
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+      color: $mainColor;
+    }
+  }
+
+  .el-table__column-filter-trigger {
+    i {
+      font-size: 20px;
+      font-weight: bold;
+      position: relative;
+      top: 3px;
+      color: $mainColor;
+    }
+  }
+}
+
+.el-menu .el-menu-item.is-active {
+  border-bottom-width: 3px!important;
+}
+
+.el-header {
+  padding: 0!important;
+}

@@ -1,0 +1,89 @@
+@import './css-reset.scss';
+@import './variables.scss';
+@import './overrides.scss';
+
+html, body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  min-height: 420px;
+  height: 100%;
+}
+
+h1, h2, h3 {
+  color: $primaryTextColor;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    opacity: 0.8!important;;
+  }
+}
+
+.submodules-table {
+  .expand-header, .no-versions {
+    margin-bottom: 8px;
+  }
+  
+  .el-icon-time.old-version-icon {
+    color: #F56C6C;
+    font-weight: bold;
+  }
+  
+  .version-info {
+    & + .version-info {
+      margin-top: 8px;
+    }
+    .version-number  {
+      text-decoration: underline;
+    }
+    &:not(.current) .version-number {
+      color: $regularTextColor;
+    }
+    &.current {
+      .version-number, .version-date {
+        color: $successColor;
+      }
+  
+    }
+    & + &.current {
+      .version-number, .version-date {
+        color: $dangerColor;
+      }
+    }
+  }
+  
+  .version-date, .no-versions, .versions-diff  {
+    color: $secondaryTextColor;
+  }
+}
